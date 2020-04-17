@@ -1,0 +1,90 @@
+body {
+    background: #7bb723;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+#container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+#cabecalho {
+    background: white;
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.cabecalhop{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 200px;;
+}
+.cabecalhop img{
+    height: 80px;
+    width: 175px;
+}
+button {
+    font-weight: bolder;
+    color: #5f3711;
+    margin-top: 100px;
+    background: white;
+    width: 200px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 500ms;
+}
+button:hover{
+    color: white;
+    background: #5f3711;
+}
+footer {
+    margin-top: 100px;
+    font-size: 20px;
+}
+a {
+    margin: 0 auto;
+    color: white;
+    transition: 500ms;
+    cursor: default;
+    text-decoration: none;
+}
+a:hover{
+    color: #5f3711;
+    font-weight: bold; 
+}
+.pergunta{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+.texto{
+    color: #5f3711;
+    margin-bottom: 50px;
+}
+.resposta{
+    display: flex;
+    color: #5f3711;
+    justify-content: center;
+    align-items: center;
+}
+.resposta p{
+    font-size: 20px;   
+    margin-right: 30px; 
+}
+.benviar{
+    margin: 0;
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+    background-color: #5f3711;
+    color : white;
+}
+input {
+    height: 30px;
+}
